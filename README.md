@@ -6,7 +6,7 @@
 
 ###
 
-<h4 align="left">Somos Isaac C. ,Edwin C. y  Mileidy H. , estudiantes de desarrollo de Software.</h4>
+<h4 align="left">Somos Isaac C. ,Edwin C. y  Mileidy H. , tecnicos de desarrollo de Software.</h4>
 
 ###
 
