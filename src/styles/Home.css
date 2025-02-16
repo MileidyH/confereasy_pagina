@@ -1,0 +1,99 @@
+.titulo-home{
+    width:100%;
+    height: 50px;
+    text-align: center;
+    background-color:  #ACBABF;
+    color: #000;
+    font-size: 25px;
+}
+
+.tarjetas-home{
+    width: 100%;
+    height: 420px;
+    display:flex
+}
+
+
+.tarjeta {
+    width: 25%;
+    border: 3px solid #1b1919;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    margin: 30px;
+  }
+  
+  .tarjeta:hover {
+    transform: translateY(-5px); /* Efecto de hover */
+  }
+  
+  .tarjeta-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .tarjeta-body {
+    padding: 15px;
+  }
+  
+  .tarjeta-body h2 {
+    margin: 0 0 10px;
+    font-size: 1.5rem;
+    color: #0f0e0e;
+  }
+  
+  .tarjeta-body p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .tarjeta-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    align-content: center;
+    text-decoration: none;
+  }
+
+  .tarjeta-button a{
+    text-decoration: none; 
+    color: #fff;
+  }
+  
+  .tarjeta-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .contacto {
+    height: 300px;
+    display: flex; /* Organiza los elementos en una fila horizontal */
+    gap: 10px; /* Espacio entre los conjuntos de imagen y párrafo */
+    margin: 20px;
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+
+    
+  }
+  
+  .contacto div {
+    display: flex; /* Coloca imagen y párrafo en línea horizontal */
+    gap: 20px; /* Añade espacio entre la imagen y el párrafo */
+  }
+  
+  .contacto img {
+    width: 100px; /* Tamaño de las imágenes, ajusta según sea necesario */
+    height: 100px; /* Tamaño de las imágenes */
+  }
+  
+  .contacto p {
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  }

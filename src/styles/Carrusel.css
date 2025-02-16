@@ -1,0 +1,13 @@
+.carousel-container {
+    width: 100%;
+    margin: auto; /* Centra el carrusel horizontalmente */
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  
+  .carousel-image {
+    width: 100%; /* Ajusta las imágenes al 100% del contenedor */
+    height: 450px; /* Mantiene la proporción de las imágenes */
+    object-fit: cover;
+  }
+  
